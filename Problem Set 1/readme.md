@@ -1,4 +1,4 @@
-#pset1
+# pset1
 
 You just bought a parcel of land that is K kilometers long; it is so narrow that, for the purposes of this problem, we will consider it to be a polyline that runs from west to east, varying in elevation. You know the elevations of the land (in meters) at K + 1 regularly spaced measurement marks M0, M1, ..., MK. These marks are 0, 1, ..., K km, respectively, from the western end.
 
