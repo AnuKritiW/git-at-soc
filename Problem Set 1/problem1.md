@@ -1,4 +1,5 @@
-Problem
+#pset1
+
 You just bought a parcel of land that is K kilometers long; it is so narrow that, for the purposes of this problem, we will consider it to be a polyline that runs from west to east, varying in elevation. You know the elevations of the land (in meters) at K + 1 regularly spaced measurement marks M0, M1, ..., MK. These marks are 0, 1, ..., K km, respectively, from the western end.
 
 In this region, a wooden post denotes the boundary between two adjacent parcels of land. Wooden posts can only be placed at measurement marks, and there can be at most one post at each mark. Right now, there are two posts: one at the 0 km mark, and one at the K km mark. A measurement mark with a post is considered to be part of both of the parcels it demarcates, so your parcel of land includes all measurement marks between 0 and K km, inclusive.
