@@ -36,21 +36,31 @@ Input
 Output
 
 4
+
 4
+
 4 8 7 3 5
+
 4
+
 4 8 7 7 5
+
 7
+
 1 2 2 1 2 1 2 1
+
 6
+
 2 1 3 10 9 12 20
 
 
 Case #1: 1
-Case #2: 0
-Case #3: 2
-Case #4: 1
 
+Case #2: 0
+
+Case #3: 2
+
+Case #4: 1
 
 In Sample Case #1, you can add one post at 2 km to get a total of two desirable parcels. The parcel from 0 to 2 km is desirable because 4 < 8 and 8 > 7. The parcel from 2 to 4 km is desirable because 7 > 3 and 3 < 5.
 
