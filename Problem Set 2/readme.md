@@ -18,16 +18,23 @@ If multiple answers are possible, you may output any one of them.
 Limits
 
 1 ≤ T ≤ 100.
+
 Time limit: 20 seconds per test set. (10 seconds per test run.)
+
 Memory limit: 1GB.
+
 1 ≤ R.
+
 1 ≤ C.
+
 0 ≤ K ≤ R × C.
 
 Test set 1 (Visible)
+
 1 ≤ (R × C) ≤ 8.
 
 Test set 2 (Hidden)
+
 1 ≤ (R × C) ≤ 100.
 
 Sample
@@ -37,13 +44,18 @@ Input
 Output
 
 2
+
 2 3 2
+
 1 1 0
 
 
 Case #1: POSSIBLE
+
 SES
+
 SNW
+
 Case #2: IMPOSSIBLE
 
 
