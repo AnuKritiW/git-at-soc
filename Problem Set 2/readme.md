@@ -40,9 +40,7 @@ Test set 2 (Hidden)
 
 Sample
 
-Input
-
-Output
+_Input_
 
 2
 
@@ -50,6 +48,7 @@ Output
 
 1 1 0
 
+_Output_
 
 Case #1: POSSIBLE
 
