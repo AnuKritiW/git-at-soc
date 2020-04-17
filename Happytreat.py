@@ -7,19 +7,29 @@ class Solution(object):
         :type wordDict: List[str]
         :rtype: bool
         """
+        # 16ms faster than 98.32% of Python
         # time: O(s^2 + n)
         # space: O(n + s)
         if not wordDict: 
             return False
         
-        wordSet = set(wordDict)
+        wordSet = set()
+        max_len = len(wordDict[0])
+        min_len = len(wordDict[0])
+        for word in wordDict: 
+            wordSet.add(word)
+            max_len = max(max_len, len(word))
+            min_len = min(min_len, len(word))
+            
         dp = defaultdict(bool)
         dp[len(s)] = True
         
         for i in range(len(s)-1, -1, -1):
             if not dp[i+1]:
                 continue
-            for j in range(i, -1, -1):
+            max_j = i - min_len + 1
+            min_j = i - max_len
+            for j in range(max_j, min_j, -1):
                 if s[j:i+1] in wordSet:
                     dp[j] = True
                     if j == 0:
