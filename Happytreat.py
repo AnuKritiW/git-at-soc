@@ -28,12 +28,10 @@ class Solution(object):
             if not dp[i+1]:
                 continue
             max_j = i - min_len + 1
-            min_j = i - max_len
+            min_j = max(i - max_len, -1)
             for j in range(max_j, min_j, -1):
                 if s[j:i+1] in wordSet:
                     dp[j] = True
                     if j == 0:
                         return True
         return False
-        
-                
