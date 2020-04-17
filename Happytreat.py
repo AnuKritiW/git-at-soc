@@ -22,12 +22,13 @@ class Solution(object):
             min_len = min(min_len, len(word))
         
         if min_len > len(s): 
-            return false
+            return False
         
         dp = defaultdict(bool)
         dp[len(s)] = True
         
-        for i in range(len(s)-1, -1, -1):
+        min_i = max(min_len - 2, -1)
+        for i in range(len(s)-1, min_i, -1):
             if not dp[i+1]:
                 continue
             max_j = max(i - min_len + 1, -1)
